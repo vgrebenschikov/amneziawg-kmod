@@ -1,14 +1,5 @@
 --- if_wg.c.orig	2025-07-22 17:38:01 UTC
 +++ if_wg.c
-@@ -5,7 +5,7 @@
-  * Copyright (c) 2019-2020 Rubicon Communications, LLC (Netgate)
-  * Copyright (c) 2021 Kyle Evans <kevans@FreeBSD.org>
-  * Copyright (c) 2022 The FreeBSD Foundation
-- * Copyright (C) 2025 Vladimir Grebenshchikov <vova@zote.me>. All Rights Reserved.
-+ * Copyright (C) 2025 Vladimir Grebenshchikov <vova@zote.me>
-  */
- 
- #include "opt_inet.h"
 @@ -278,21 +278,21 @@ static volatile unsigned long peer_counter = 0;
  static int clone_count;
  static uma_zone_t wg_packet_zone;
